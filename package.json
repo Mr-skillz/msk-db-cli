@@ -1,0 +1,28 @@
+{
+    "name": "msk-db-cli",
+    "version": "1.1.1",
+    "description": "This is a database helper",
+    "keywords": [
+        "msk",
+        "cli",
+        "db"
+    ],
+    "bin": {
+        "msk-cli": "./index.js"
+    },
+    "author": "Mr Skill D Boss",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "chalk-table": "^1.0.2",
+        "commander": "^9.4.1",
+        "dotenv": "^16.0.3",
+        "figlet": "^1.5.2",
+        "mysql": "^2.18.1",
+        "text-table": "^0.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Mr-skillz/msk-cli.git"
+    }
+}
